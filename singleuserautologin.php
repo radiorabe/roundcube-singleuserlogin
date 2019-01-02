@@ -5,7 +5,7 @@
  *
  * @license GNU GPLv3+
  */
-class singleuserautologon extends rcube_plugin
+class singleuserautologin extends rcube_plugin
 {
   public $task = 'login';
 
