@@ -2,7 +2,7 @@
   "name": "radiorabe/roundcube-singleuserautologin",
   "type": "roundcube-plugin",
   "description": "Plugin that automatically logs in a configurable user.",
-  "license": "GPLv3+",
+  "license": "GPL-3.0-or-later",
   "version": "1.0",
   "authors": [
     {
