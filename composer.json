@@ -3,7 +3,7 @@
   "type": "roundcube-plugin",
   "description": "Plugin that automatically logs in a configurable user.",
   "license": "GPL-3.0-or-later",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "authors": [
     {
       "name": "Lucas Bickel",
