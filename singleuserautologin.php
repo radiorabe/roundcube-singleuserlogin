@@ -31,7 +31,6 @@ class singleuserautologin extends rcube_plugin
     if (!empty($_GET['_autologin'])) {
       $args['user'] = $this->get_config('username');
       $args['pass'] = $this->get_config('password');
-      $args['host'] = $this->get_config('hostname');
       $args['cookiecheck'] = false;
       $args['valid'] = true;
     }
@@ -43,6 +42,6 @@ class singleuserautologin extends rcube_plugin
   {
     $rcmail = rcube::get_instance();
 
-    return $rcmail->config->get(sprintf('singleuserautologon_%s', $key));
+    return $rcmail->config->get(sprintf('singleuserautologin_%s', $key));
   }
 }

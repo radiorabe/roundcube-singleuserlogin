@@ -2,8 +2,6 @@
 
 // By default this plugin logs all users in with the values configured below.
 
-$config['singleuserautologon_hostname'] = 'example.com';
+$config['singleuserautologin_username'] = 'me@example.com';
 
-$config['singleuserautologon_username'] = 'me';
-
-$config['singleuserautologon_password'] = '*****';
+$config['singleuserautologin_password'] = '*****';
